@@ -12,9 +12,13 @@ public class EvenArr {
              evenCount++; 
         }
       }
+      System.out.println( "Even count is : " + evenCount);
+
+      //creating a new array, and it'll be helps in determing the size of the new array
       int[] result = new int[evenCount];
+      //converting arrays to string and print with the help of Arrays.toString()
+      System.out.println(Arrays.toString(result));
       
-       System.out.println(Arrays.toString(result));
       
       int index = 0; // to insert values
       for (int i = 0; i < arr.length; i++) {
