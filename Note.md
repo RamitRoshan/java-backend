@@ -128,8 +128,34 @@ Instance methods need an object, static methods belong to the class and are call
 ## 📌 Quick Comparison : 
 
 
-Instance Method	   |  Static Method
-Needs object	   |  No object needed
-Called using object	 Called using class
-Works on object data Works on provided data
+       Instance Method	      Static Method 
+       Needs object	          No object needed
+       Called using object 	  Called using class 
+       Works on object data   Works on provided data
 
+
+- For-loop => It is used, when we know the numbers of iteration to execute.
+- While-loop => when we don't know the number of iterations we performs.
+
+
+## Here are some classic Two Pointers array problems:
+
+Two Sum II (Sorted Array) – find two numbers with given sum
+
+Remove Duplicates from Sorted Array
+
+Move Zeros to End
+
+Container With Most Water
+
+Trapping Rain Water (Optimized)
+
+Dutch National Flag Problem (sort 0,1,2)
+
+Minimum Size Subarray Sum
+
+Squares of a Sorted Array (merge two pointers)
+
+Reverse Array / Subarray
+
+Longest Subarray with Sum K

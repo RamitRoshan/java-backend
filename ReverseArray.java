@@ -66,8 +66,6 @@ public class ReverseArray {
 
 // public class ReverseArray {
 //     public static void main(String[] args) {
-//         // int[] arr = {11, 22, 33, 44};
-
 //         ArrayList<Integer> a = new ArrayList<>();
 
 //         a.add(11);
