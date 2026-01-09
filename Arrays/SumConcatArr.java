@@ -1,3 +1,5 @@
+package Arrays;
+
 // import java.util.Arrays;
 
 // public class SumConcatArr {
@@ -19,10 +21,8 @@
 //             sum2 += arr2[i];
 //         }
 
-
 //         //concatenation
 //         int[] concat = new int[arr1.length + arr2.length];
-
 //         int index = 0;
 //         for(int i=0; i<arr1.length; i++){
 //             concat[index] = arr1[i];
@@ -32,14 +32,12 @@
 //             concat[index] = arr2[i];
 //             index++;
 //         }
-
 //         System.out.println("Sum of arr1: " + sum1);
 //         System.out.println("Sum of arr2: " + sum2);
-        
 //         System.out.println("Concatenation: " + Arrays.toString(concat));
 //     }
-    
 // }
+
 
 //Alternate array mergeing
 import java.util.Arrays;
@@ -59,4 +57,3 @@ public class SumConcatArr {
         System.out.println("Alternate merging array: "+ Arrays.toString(result));
     }    
 }
- 

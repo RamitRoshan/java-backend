@@ -16,11 +16,11 @@
 
 - public → JVM can access it from anywhere
 
-- static → No object needed; JVM calls it directly
+- static → Class Method, No object needed; JVM calls it directly
 
 - void → Returns nothing
 
-- main → Program execution starts here
+- main → Program execution starts here (name of methods)
 
 - String[] args → Command-line arguments (inputs at runtime)
 
@@ -28,7 +28,8 @@
 It is the entry point of a Java program where execution starts.
 
 
-
+## What is starting point of java program ?
+ans: it's a main method and it return nothing that's why it has void 
 # REPL
 
 Q). What is REPL? <br>

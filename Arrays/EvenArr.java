@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.*;
 
 public class EvenArr {
@@ -32,3 +34,4 @@ public class EvenArr {
       System.out.println(Arrays.toString(result));
   }
 }
+

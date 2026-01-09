@@ -1,3 +1,5 @@
+package Arrays;
+
 public class SumArray {
     public static void main(String[] args) {
         
@@ -19,12 +21,3 @@ public class SumArray {
         System.out.print("Sum: " + sum);
     }
 }
-
-
-
-
-
-
-
-
-
