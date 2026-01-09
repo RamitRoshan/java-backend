@@ -138,35 +138,82 @@ Instance methods need an object, static methods belong to the class and are call
 - While-loop => when we don't know the number of iterations we performs.
 
 
-## Here are some classic Two Pointers array problems:
-
-Two Sum II (Sorted Array) – find two numbers with given sum
-
-Remove Duplicates from Sorted Array
-
-Move Zeros to End
-
-Container With Most Water
-
-Trapping Rain Water (Optimized)
-
-Dutch National Flag Problem (sort 0,1,2)
-
-Minimum Size Subarray Sum
-
-Squares of a Sorted Array (merge two pointers)
-
-Reverse Array / Subarray
-
-Longest Subarray with Sum K
 
 
+- String Default value is **Null**.
+- Array Defualt value is **0**.
 
-Q). Why do we use Arrays.toString()?
+## Q). Why do we use Arrays.toString()?
 
 In Java, arrays do NOT override toString().
 So if you print an array directly, Java prints reference information, not values.
 
 
-- String Default value is **Null**.
-- Array Defualt value is **0**.
+##### Arrays don’t override toString(), so printing an array shows its reference. Arrays.toString() is used to print actual elements.
+
+
+Q). Why do we use new keyword in Java? <br>
+
+ans:  new is used to create an object in memory (heap). <br>
+
+
+### What new does internally
+
+Q). When you write:
+
+         Student s = new Student();
+
+
+new:
+
+Allocates memory in heap
+
+Creates a new object
+
+Calls the constructor
+
+Returns the reference of the object
+
+Why new is needed :
+
+To create separate objects
+
+To store instance variables
+
+To access instance methods
+
+To avoid using only references
+
+Examples: 
+
+     int[] arr = new int[5];  // memory allocated for array
+     String s = new String("Java"); // new String object
+
+
+Without new?
+Student s;
+
+
+❌ No object created, only reference → NullPointerException if used.
+
+
+Note: 
+The new keyword is used to allocate memory and create objects in Java.
+## For-each loop (enhanced for loop)
+
+```
+public class MovieArr {
+    public static void main(String[] args) { 
+        //traditional approach of creating array
+        String[] movies = new String[3];
+        movies[0] = "F1";
+        movies[1] = "F2";
+        movies[2] = "F3";
+
+        //enhanced for loop
+        for(String movieName: movies){
+            System.out.println("Name: " + movieName);
+        }
+    }
+}
+```
