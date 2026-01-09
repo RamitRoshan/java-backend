@@ -159,3 +159,14 @@ Squares of a Sorted Array (merge two pointers)
 Reverse Array / Subarray
 
 Longest Subarray with Sum K
+
+
+
+Q). Why do we use Arrays.toString()?
+
+In Java, arrays do NOT override toString().
+So if you print an array directly, Java prints reference information, not values.
+
+
+- String Default value is **Null**.
+- Array Defualt value is **0**.
