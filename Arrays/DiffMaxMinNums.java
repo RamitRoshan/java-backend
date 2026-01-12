@@ -30,11 +30,14 @@ public class DiffMaxMinNums {
         return max - min;
     }
     public static void main(String[] args) {
-        int[] array = {10, 4, 1,4,-10, -50,32,21};
+        int[] array1 = {10, 4, 1,4,-10, -50,32,21};
+        int[] array2 = {44, 32, 86, 19};
 
-        int result = differenceMaxMin(array);
+        int result1 = differenceMaxMin(array1);
+        int result2 = differenceMaxMin(array2);
 
-        System.out.println(result);
+        System.out.println(result1);
+        System.out.println(result2);
     }
 }
 
