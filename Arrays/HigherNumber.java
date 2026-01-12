@@ -6,6 +6,7 @@ import java.util.Arrays;
 or equal to n.
 existsHigher([5,3,15,22,4], 10) -> true
 */
+
 public class HigherNumber {
 
     public static boolean existsHigher(int[] arr, int n){
@@ -23,7 +24,7 @@ public class HigherNumber {
         boolean ans = existsHigher(array, number);
         System.out.println(ans);
 
-        
+
         //printing array (just normally printing array)
         System.out.println(Arrays.toString(array));
     }

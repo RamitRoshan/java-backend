@@ -10,6 +10,7 @@ create a function that takes in an array of names and returns the name of the se
 societyName(["Adam", "Sarah", "Malcolm"]) -> "AMS"
 societyName(["Harry", "Newt", "Luna", "Cho"]) -> "CHLN"
 */
+
 public class SecretSociety {
 
     public static String societyName(String[] names){

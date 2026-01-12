@@ -11,19 +11,25 @@ Smallest number is -50, biggest is 32.
 differenceMaxMin([44, 32, 86, 19]) ->  67
 Smallest number is 19, biggest is 86
 */
+
 public class DiffMaxMinNums {
 
     public static int differenceMaxMin(int[] arr){
 
         // initialising array
-        int max = arr[0];
-        int min = arr[0];
+        // int max = arr[0];
+        // int min = arr[0];
 
-        for(int i=1; i<arr.length; i++){
+        // here it works reverse thing in max it shows min and vice versa
+        int max  = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+
+        for(int i=0; i<arr.length; i++){
             if(arr[i] > max){
                 max = arr[i];
 
-            }else if(arr[i] < min){
+            }
+            if(arr[i] < min){
                 min = arr[i];
             }
         }
