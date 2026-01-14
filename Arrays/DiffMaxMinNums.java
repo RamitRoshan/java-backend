@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 /*
 Difference of Max and Min Numbers in Array.

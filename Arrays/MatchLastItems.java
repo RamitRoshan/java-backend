@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 /*  Match the Last ItemCreate a function that takes an array of items and checks if the last item 
 matches the rest of the array concatenated together.

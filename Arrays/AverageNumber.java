@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 /*
 Is the Average of All Elements a Whole Number?

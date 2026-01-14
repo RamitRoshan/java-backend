@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 /* Capitalize the NamesCreate a method that takes an array of names and returns an array where 
 only the first letter of each name is capitalized.

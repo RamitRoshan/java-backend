@@ -1,4 +1,4 @@
-package Arrays;
+package arrays;
 
 /* Special Arrays: 
 An array is special if every even index contains an even number and every 
