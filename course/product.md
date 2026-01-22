@@ -6,6 +6,7 @@ You are designing a product catalog system to demonstrate object-oriented progra
 
 **1. Base Class – Product**
 
+
 Create a class Product that represents common features of all products.
 
 <br>

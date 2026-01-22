@@ -28,5 +28,5 @@ class Book extends Product{
     int bId;
     String author;
     String genre;
-    int pages;
+    int page;
 }

@@ -5,7 +5,7 @@ public class Instructor extends Person {
     String specialization;
 
     public void teach() {
-        System.out.println("Teaching!!");
+        System.out.println("Teaching!!!");
     }
 
     @Override
