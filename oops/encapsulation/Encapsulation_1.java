@@ -1,5 +1,7 @@
 package oops.encapsulation;
 
+// Setter and Getter 
+
 public class Encapsulation_1 {
     public static void main(String[] args) {
         Student s1 = new Student(11, "abhishekji", "abhishekji@gmaill.com");
