@@ -1,3 +1,4 @@
+package codingproblem;
 public class CharCountCase {
     public static void main(String[] args) {
         /*Case in-sensitive comparision count . like when char = 'A' as well as 'a' 

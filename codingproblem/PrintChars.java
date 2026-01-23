@@ -1,3 +1,4 @@
+package codingproblem;
 public class PrintChars {
     public static void main(String[] args) {
         String name = "Ramit";

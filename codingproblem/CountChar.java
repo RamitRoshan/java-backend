@@ -1,3 +1,4 @@
+package codingproblem;
 public class CountChar {
     public static void main(String[] args) {
         
