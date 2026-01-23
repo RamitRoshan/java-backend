@@ -1,6 +1,7 @@
 package oops.inheritance;
 
-//create one single object and throough inheritance it will get and sum
+// Create a single object and through inheritance get all values and sum them.
+
 public class CountNum {
     public static void main(String[] args) {
         // One obja = new One();
@@ -18,11 +19,12 @@ public class CountNum {
     }
 }
 
-
+//parent class/base class/super class
 class One{
     int a = 10;
 }
 
+// child class /Derived class/ sub class
 class Two extends One{
     int b = 5;
 }
@@ -30,8 +32,6 @@ class Two extends One{
 class Three extends Two{
     int c = 7;
 }
-
-
 
 
 
