@@ -1,6 +1,7 @@
 package oops.polymorphism;
 
 //Instead of writting multiple Overloaded methods, Java Provides us var args using three dots (...)
+//here we can write multiple overloading methods.
 public class MultiOverLoadMethod {
     public static void main(String[] args) {
         Math calc = new Math();
