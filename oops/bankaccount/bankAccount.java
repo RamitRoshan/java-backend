@@ -8,8 +8,8 @@ public class bankAccount {
         BankAccount account2 = new BankAccount(2020,"Bablu", 5000);
 
         //Accout1 details
-        account1.deposit(1000);
-        account1.withdraw(500);
+        account1.deposit(2000);
+        account1.withdraw(5000);
         account1.displayAccoutDetails();
 
         //space
@@ -38,18 +38,18 @@ class BankAccount{
     // Deposit method
     public void deposit(int amount) {
         balance = balance + amount;
-        System.out.println(amount + " deposited successfully" + ", New balance: " + balance);
+        System.out.println(amount + " deposited successfully" + ", and New balance: " + balance);
     }
 
     // Withdraw Method
     public void withdraw(int amount){
         //Deducts the amount from the balance if sufficient funds are available
-        if(amount <= balance){
+        if(amount < balance){
             balance = balance - amount;
-            System.out.println(amount + " withdraw successfully" + ", New balance is: " + balance);
+            System.out.println(amount + " withdraw successfully" + ", and New balance is: " + balance);
 
         }else{
-            System.out.println("Insufficient balance, withdraw failed!");
+            System.out.println("Insufficient balance available, withdraw failed!");
         }
     }
 
