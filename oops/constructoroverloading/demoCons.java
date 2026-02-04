@@ -8,8 +8,8 @@ public class demoCons {
         Student s3 = new Student("Ramit", 23);
 
         s1.display();
-        s1.display();
-        s1.display(); 
+        s2.display();
+        s3.display(); 
     }
 }
 
